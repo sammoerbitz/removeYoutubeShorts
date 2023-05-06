@@ -1,0 +1,24 @@
+{
+  "name": "removeyoutubeshorts",
+  "version": "1.0.0",
+  "description": "I hate youtube shorts.... get rid of them",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sammoerbitz/removeYoutubeShorts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sammoerbitz/removeYoutubeShorts/issues"
+  },
+  "homepage": "https://github.com/sammoerbitz/removeYoutubeShorts#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.235",
+    "typescript": "^5.0.4"
+  }
+}

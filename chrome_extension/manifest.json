@@ -1,0 +1,14 @@
+{
+  "name": "Remove Shorts",
+  "version": "1.0",
+  "description": "A Chrome extension that removes YouTube Shorts from the homepage of youtube.",
+  "manifest_version": 3 ,
+  "permissions": ["activeTab", "storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["cleaner.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
